@@ -1,10 +1,7 @@
 
 
-// const title = document.getElementById('title')
-// const descrip = document.getElementById('description');
-// const ingredient = document.getElementById('ingredientList');
-// const image = document.getElementById('coffee-image');
-// const card = document.getElementById('coffee-card');
+
+const coffeeContainer = document.querySelectorAll('coffee-container');
 
 // Function to fetch the api
 async function getCoffee () {
@@ -18,9 +15,12 @@ async function getCoffee () {
 
         
         const data = await response.json();
-        data.slice(0,3)
-        // displayCoffee(data);
-        showCoffee(data)
+        
+
+        // data.slice(0,3)
+        displayCoffee(data);
+        // showCoffee(data)
+        // getDisplay(data);
         console.log(data);
     }
 
@@ -30,10 +30,28 @@ async function getCoffee () {
     }
 }
 
+
+
+// function getDisplay(coffee) {
+//     const coffeeContainer = document.querySelectorAll('coffee-container');
+    
+//     coffeeContainer.forEach(item => {
+//         let results = `
+//             <div class="title" id="title">
+//                 <h2>${item.title}</h2>
+//             </div>
+//         `;
+
+        
+//     })
+    
+    
+// }
+
 function showCoffee(data) {
 
     window.addEventListener('DOMContentLoaded', function() {
-    const coffeeContainer = document.getElementById('coffee-container');
+    
 
     
 
@@ -52,46 +70,50 @@ function showCoffee(data) {
 
 
 
-// // Displaying the data
-// function displayCoffee(data) {
+// Displaying the data
+function displayCoffee(data) {
 
-//     window.addEventListener('DOMContentLoaded', function() {
+    // window.addEventListener('DOMContentLoaded', function() {
    
 
-//     function createCoffee(coffeeChoice) {
+    function createCoffee(data) {
 
-//     // Parent element
-//      const coffeeContainer = document.getElementById('coffee-container'); 
-//     // adding class name to element
-//     coffeeChoice.classList.add('coffee-card')
-//     // setting HTML content inside of 'coffee-card'
-//     coffeeChoice.innerHTML = `
-    
-//         <div class="title" id="title">
-//             <h2>${data.title}</h2>
-//         </div>
+        // Parent element
+        // const coffeeContainer = document.querySelectorAll('coffee-container');
 
-//         <figure class="coffee-image" id="coffee-image">
-//             <img src=${coffeeChoice.image} alt="">
-//         </figure>
+        coffeeContainer.forEach(coffeeChoice => {
+                // adding class name to element
+            coffeeChoice.classList.add('coffee-card')
+            // setting HTML content inside of 'coffee-card'
+            coffeeChoice.innerHTML = `
+            
+                <div class="title" id="title">
+                    <h2>${data.title}</h2>
+                </div>
+
+                <figure class="coffee-image" id="coffee-image">
+                    <img src=${coffeeChoice.image} alt="">
+                </figure>
+                
+                <div class="description" id="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, facilis?
+                </div>
+
+                <h3>Ingredients:</h3>
+
+                <ul id="ingredientList">
+                    <li></li>
+                </ul>
+
+            `;
+        })
+
         
-//         <div class="description" id="description">
-//             Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, facilis?
-//         </div>
-
-//         <h3>Ingredients:</h3>
-
-//         <ul id="ingredientList">
-//             <li></li>
-//         </ul>
-
-//     `;
-    
-//     }
-    
-//     coffeeContainer.forEach(createCoffee)
-//     // coffeeContainer.appendChild(coffeeInfo);
-// })
-// }
+        
+        }
+        coffeeContainer.forEach(createCoffee)
+       
+    // })
+}
 
 getCoffee()
