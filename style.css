@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.coffee-container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    margin-top: 20px;
+  }
+
+.coffee-card {
+    border: 1px solid rebeccapurple;
+    width: 600px;
+    height: auto;
+}
