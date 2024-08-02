@@ -4,19 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: rgb(255, 255, 255);
+}
 
 
 .coffee-container {
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 50px;
-    margin-top: 20px;
-  }
+    background-color: rgb(40, 37, 37);
+    display: inline-block;
+    max-width: 400px;
+    padding: 20px;
+    margin: 10px;
+}
 
 .coffee-card {
     border: 1px solid rebeccapurple;
     width: 600px;
     height: auto;
+}
+
+img {
+    height: auto;
+    width: 100%;
 }
