@@ -39,33 +39,33 @@ function icedCoffee() {
 }
 
 
-function displayHTML(stuff) {
+// function displayHTML(stuff) {
 
-    const divEl = document.createElement('div');
-    divEl.classList.add("coffee-list")
-    divEl.innerHTML = `
+//     const divEl = document.createElement('div');
+//     divEl.classList.add("coffee-list")
+//     divEl.innerHTML = `
      
-    <div class="title" id="title">
-        <h2>${stuff[2].title}</h2>
-    </div>
+//     <div class="title" id="title">
+//         <h2>${stuff[2].title}</h2>
+//     </div>
 
-    <figure class="coffee-image" id="coffee-image">
-        <img src=${stuff[2].image} alt="">
-    </figure>
+//     <figure class="coffee-image" id="coffee-image">
+//         <img src=${stuff[2].image} alt="">
+//     </figure>
     
-    <div class="description" id="description">
-        ${stuff[2].description}
-    </div>
+//     <div class="description" id="description">
+//         ${stuff[2].description}
+//     </div>
 
-    <h3>Ingredients:</h3>
+//     <h3>Ingredients:</h3>
 
-    <ul id="ingredientList">
-        <li>${stuff[2].ingredients}</li>
-    </ul>
-`
-    coffeeContainer.appendChild(divEl)
+//     <ul id="ingredientList">
+//         <li>${stuff[2].ingredients}</li>
+//     </ul>
+// `
+//     coffeeContainer.appendChild(divEl)
 
-}
+// }
 
 hotCoffee() 
 // icedCoffee()

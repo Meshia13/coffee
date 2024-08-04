@@ -5,29 +5,145 @@
 }
 
 body {
+    background-color: rgb(36, 19, 7);
+    color: wheat
+}
+
+.navbar {
+    background-color: rgb(24, 12, 1);
+    height: 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-family: "Lora", serif;
-    color: rgb(255, 255, 255);
+    /* justify-content: space-evenly; */
 }
 
 
+
+.nav-links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: wheat;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.navbar a:hover {
+    font-size: 1.75rem;
+}
+
+
+
 .coffee-container {
-    background-color: rgb(40, 37, 37);
-    display: inline-block;
-    max-width: 400px;
-    padding: 20px;
-    margin: 10px;
+    border: 1px solid wheat;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    
+    /* width: 100%; */
 }
 
 .coffee-card {
     border: 1px solid rebeccapurple;
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     height: auto;
+}
+
+.coffee-card .featured-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.coffee-card .featured-drink {
+    
+    border: 1px solid rgb(93, 55, 8);
+    background-color: rgba(192, 137, 70, 0.836);
+    margin: 40px 0;
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
+    width: 30%;
+    float: right;
+    color: white;
+
 }
 
 img {
     height: auto;
     width: 100%;
 }
+
+
+.coffee-break {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.coffee-break-title {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+}
+
+.coffee-break-title::before,
+.coffee-break-title::after {
+    content: "";
+    height: 2px;
+    background-color: wheat;
+    display: block;
+}
+
+.coffee-options {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    margin-top: 20px;
+}
+
+.coffee {
+    border: 1.5px solid rgb(85, 39, 2);
+    margin: 20px;
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
+}
+
+.coffee img {
+    height: auto;
+    width: 100%;
+}
+
+.coffee-drink {
+    padding: 20px;
+}
+
+.coffee hr {
+display: block;
+border: 0;
+margin-top: 10px;
+border-top: 1px solid #7d4e24;
+}
+
+.coffee p {
+margin: 10px 0;
+}
+
+
