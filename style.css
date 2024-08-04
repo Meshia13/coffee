@@ -47,7 +47,7 @@ body {
 
 
 .coffee-container {
-    /* border: 1px solid wheat; */
+    border: 1px solid wheat;
     display: flex;
     justify-content: space-around;
     height: auto;
@@ -110,7 +110,8 @@ img {
     display: block;
 }
 
-.coffee-options {
+.hotCoffee-options-container {
+    border: 1px solid red;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -120,15 +121,31 @@ img {
     margin-top: 20px;
 }
 
+.icedCoffee-options-container {
+    border: 1px solid greenyellow;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    margin-top: 20px;
+}
+
+.coffee-options img {
+    height: 300px;
+    width: 300px;
+}
+
 .coffee {
     border: 1.5px solid rgb(85, 39, 2);
     margin: 20px;
     box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
 }
 
-.coffee img {
-    height: auto;
-    width: 100%;
+.coffee-image img {
+    height: 300px;
+    width: 300px;
 }
 
 .coffee-drink {
