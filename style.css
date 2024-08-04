@@ -14,7 +14,7 @@ body {
     height: 70px;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
 }
 
 
@@ -24,7 +24,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .navbar a {
@@ -47,7 +47,7 @@ body {
 
 
 .coffee-container {
-    border: 1px solid wheat;
+    /* border: 1px solid wheat; */
     display: flex;
     justify-content: space-around;
     height: auto;
@@ -56,7 +56,7 @@ body {
 }
 
 .coffee-card {
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -146,4 +146,14 @@ border-top: 1px solid #7d4e24;
 margin: 10px 0;
 }
 
-
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(24, 12, 1);
+}

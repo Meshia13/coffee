@@ -1,4 +1,21 @@
+// Global Variables
 const coffeeContainer = document.querySelector('#coffee-container');
+const navBar = document.querySelector('.navbar');
+
+// Function to create navbar dynamically
+function createNavBar() {
+    const navBarEl = document.createElement('div');
+    navBarEl.classList.add('nav-links-container');
+    navBarEl.innerHTML = `
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Our Menu</a>
+        <a href="#">Company</a>
+        <a href="#">Contact Us</a>
+    `;
+
+    navBar.appendChild(navBarEl)
+}
 
 function hotCoffee() {
 
@@ -67,6 +84,8 @@ function icedCoffee() {
 
 // }
 
+
+createNavBar()
 hotCoffee() 
 // icedCoffee()
 
