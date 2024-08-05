@@ -9,6 +9,7 @@
   - [Demo](#demo)
   - [Built with](#built-with)
   - [Installation](#installation)
+  - [Open Source](#open-source)
 - [Author](#author)
 
 
@@ -40,7 +41,7 @@ One page website application for a coffee shop. This web application demonstrate
 Download the entire repository. 
 
 ### Open Source
-## How to contribute to open source
+#### How to contribute to open source
 
 - [How to Contribute to Open Source Projects – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/)
 
