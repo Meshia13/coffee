@@ -6,7 +6,6 @@
 
 - [Overview](#overview)
   - [Description](#description)
-  - [Screenshot](#screenshot)
   - [Demo](#demo)
   - [Built with](#built-with)
   - [Installation](#installation)
@@ -18,10 +17,6 @@
 ### Description
 
 One page website application for a coffee shop. This web application demonstrates how to fetch API's, proper HTML semantic, proper indentation, consistent styling, and clean code structure.
-
-### Screenshot
-
-<img src="assets/images/Screenshot.png" width="150" height="100">
 
 ### Demo
 
