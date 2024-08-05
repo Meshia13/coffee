@@ -32,7 +32,7 @@ function hotCoffee() {
         return response.json();
     })
     .then(data => {
-
+        // obtaining the first four items in api to display
         coffee = data;
         coffee.slice(0,4).forEach((item) => {
             hotDrink(item);
@@ -54,7 +54,7 @@ function icedCoffee() {
         return response.json();
     })
     .then(data => {
-        
+        // obtaining the first four items in api to display
         coffee = data;
         coffee.slice(0,4).forEach((item) => {
             icedDrink(item);
@@ -68,7 +68,7 @@ function icedCoffee() {
 // Dynamically populating feature coffee elements
 function featuredCoffee(feature) {
 
-    // Creating elements to write to html
+    // Creating elements to write to html and choosing one item to be featured drink
     const divEl = document.createElement('div');
     divEl.classList.add("coffee-card")
     divEl.innerHTML = `
