@@ -1,3 +1,6 @@
+
+@import url("navFoot.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -7,40 +10,6 @@
 body {
     background-color: rgb(36, 19, 7);
     color: wheat
-}
-
-.navbar {
-    background-color: rgb(24, 12, 1);
-    height: 70px;
-    display: flex;
-    align-items: center;
-    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
-}
-
-/* Navigation */
-.nav-links-container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: wheat;
-    height: 100%;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: bold;
-
-}
-
-.navbar a:hover {
-    font-size: 1.75rem;
 }
 
 /* Heading */
@@ -57,7 +26,7 @@ body {
 .coffee-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 10px;
     height: auto;
     margin: 50px;
     padding: 10px;
@@ -68,7 +37,6 @@ body {
     flex-direction: column;
     padding: 20px;
     height: auto;
-    margin-left: 200px;
 }
 
 .coffee-card .featured-title {
@@ -79,7 +47,6 @@ body {
 }
 
 .coffee-card .featured-drink {
-    
     border: 1px solid rgb(93, 55, 8);
     background-color: rgba(192, 137, 70, 0.836);
     margin: 40px 0;
@@ -87,16 +54,15 @@ body {
     box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
     width: 40%;
     color: white;
-
 }
 
-.coffee-container .feature-image {
-    height: auto;
-    width: 100%;
-    float: right;
-
+.coffee-image img {
+    float: left;
+    height: 400px;
+    width: 400px;
 }
 
+/* Coffee Break between sections */
 .coffee-break {
     display: flex;
     align-items: center;
@@ -106,7 +72,6 @@ body {
     letter-spacing: 2px;
     margin-top: 40px;
 }
-
 
 .coffee-break-title {
     display: grid;
@@ -123,48 +88,11 @@ body {
     display: block;
 }
 
-/* Hot Coffee */
-.hotCoffee-options-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 50px;
-    margin-top: 20px;
-}
-
-.hotCoffee-options-container .coffee-options .coffee img{
-    border: 1px solid white;
-    width: 100%;
-    height: 400px;
-}
-
-/* Iced Coffee */
-.icedCoffee-options-container {
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 50px;
-    margin-top: 20px;
-}
-
-.icedCoffee-options-container .coffee-options .coffee img{
-    border: 1px solid white;
-    width: 100%;
-    height: 400px;
-}
-
+/* Designing Coffee Cards */
 .coffee {
     border: 1.5px solid rgb(85, 39, 2);
     margin: 20px;
     box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
-}
-
-.coffee-image img {
-    height: 300px;
-    width: 300px;
 }
 
 .coffee-drink {
@@ -182,14 +110,38 @@ border-top: 1px solid #7d4e24;
 margin: 10px 0;
 }
 
-footer {
+/* Hot Coffee */
+.hotCoffee-options-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    background-color: rgb(24, 12, 1);
+    margin: 0 50px;
+    margin-top: 20px;
 }
+
+/* Hot Coffee */
+
+.hotCoffee-options-container .coffee-options .coffee img{
+    width: 100%;
+    height: 400px;
+}
+
+/* Iced Coffee */
+.icedCoffee-options-container {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    margin-top: 20px;
+}
+
+.icedCoffee-options-container .coffee-options .coffee img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
