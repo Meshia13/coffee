@@ -37,9 +37,8 @@ One page website application for a coffee shop. This web application demonstrate
 - API: [SampleAPIs](https://sampleapis.com/api-list/coffee)
 
 ### Installation
-
-Download the entire repository. 
-![Clone]`https://github.com/Meshia13/coffee_shop.git`
+#### To get a local copy up:
+-`https://github.com/Meshia13/coffee_shop.git`
 
 ### Open Source
 #### How to contribute to open source
