@@ -5,7 +5,7 @@
 - [Overview](#overview)
   - [Description](#description)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Demo](#demo)
   - [Built with](#built-with)
   - [Installation](#installation)
 - [Author](#author)
@@ -21,7 +21,7 @@ One page website application for a coffee shop. This web application demonstrate
 
 <img src="assets/images/Screenshot.png" width="150" height="100">
 
-### Links
+### Demo
 
 - Live Site URL: [Live Code](https://meshia13.github.io/coffee_shop/)
 
