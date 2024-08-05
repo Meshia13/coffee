@@ -24,7 +24,7 @@ Blog website that utilize HTML and CSS. This blog features responsive design, cu
 
 ### Links
 
-- Live Site URL: [Live Code](https://meshia13.github.io/original-shorts-blog/)
+- Live Site URL: [Live Code](https://meshia13.github.io/coffee_shop/)
 
 ## My process
 
