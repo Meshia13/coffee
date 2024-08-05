@@ -1,14 +1,15 @@
-# Coffee-shop
+# Cafe Coffee Shop
 
-This is a Front End Web Development project.
+<img src="assets/images/Screenshot.png">
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Description](#description)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Demo](#demo)
   - [Built with](#built-with)
+  - [Installation](#installation)
 - [Author](#author)
 
 
@@ -16,14 +17,13 @@ This is a Front End Web Development project.
 
 ### Description
 
-Blog website that utilize HTML and CSS. This blog features responsive design, custom styling, and interactive elements. Demonstrates proper HTML semantic, proper indentation, consistent styling, and clean code structure.
+One page website application for a coffee shop. This web application demonstrates how to fetch API's, proper HTML semantic, proper indentation, consistent styling, and clean code structure.
 
 ### Screenshot
 
-<img src="assets/images/Screenshot .png" width="150" height="100">
-assets/images/Screenshot .png
+<img src="assets/images/Screenshot.png" width="150" height="100">
 
-### Links
+### Demo
 
 - Live Site URL: [Live Code](https://meshia13.github.io/coffee_shop/)
 
@@ -35,6 +35,13 @@ assets/images/Screenshot .png
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
+- Document Object Model (DOM)
+- API: [SampleAPIs](https://sampleapis.com/api-list/coffee)
+
+### Installation
+
+Download the entire repository. 
 
 
 ## Author
