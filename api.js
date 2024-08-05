@@ -1,9 +1,9 @@
 // Global Variables
 const coffeeContainer = document.querySelector('#coffee-container');
-const hotCoffeeContainer = document.querySelector('.hotCoffee-options-container')
-const icedCoffeeContainer = document.querySelector('.icedCoffee-options-container')
+const hotCoffeeContainer = document.querySelector('.hotCoffee-options-container');
+const icedCoffeeContainer = document.querySelector('.icedCoffee-options-container');
 
-
+// Fetching Featured Coffee
 function featCoffee() {
     
     fetch('https://api.sampleapis.com/coffee/hot')
@@ -21,6 +21,7 @@ function featCoffee() {
     });
 }
 
+// Fetching Hot Coffee
 function hotCoffee() {
 
     fetch('https://api.sampleapis.com/coffee/hot')
@@ -36,14 +37,13 @@ function hotCoffee() {
         coffee.slice(0,4).forEach((item) => {
             hotDrink(item);
         })
-        
-        
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
     });
 }
 
+// Fetching Iced Coffee
 function icedCoffee() {
 
     fetch('https://api.sampleapis.com/coffee/iced')
@@ -59,49 +59,49 @@ function icedCoffee() {
         coffee.slice(0,4).forEach((item) => {
             icedDrink(item);
         })
-        
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
     });
-
-  
 }
 
-
+// Dynamically populating feature coffee elements
 function featuredCoffee(feature) {
 
-    
+    // Creating elements to write to html
     const divEl = document.createElement('div');
     divEl.classList.add("coffee-card")
     divEl.innerHTML = `
 
-    <div class="featured-drink">
-        <h4>Featured Drink</h4>
-    </div>
-     
-    <div class="featured-title" id="featured-title">
-        <h2>${feature[6].title}</h2>
-    </div>
-    
-    <div class="description" id="description">
-        ${feature[6].description}
-    </div>
-`;
+        <div class="featured-drink">
+            <h4>Featured Drink</h4>
+        </div>
+        
+        <div class="featured-title" id="featured-title">
+            <h2>${feature[6].title}</h2>
+        </div>
+        
+        <div class="description" id="description">
+            ${feature[6].description}
+        </div>
+    `;
+
     const figEl = document.createElement('figure');
     figEl.classList.add("coffee-image");
     figEl.innerHTML = `
     
-    <figure class="coffee-image" id="coffee-image">
-        <img src=${feature[6].image} alt="coffee">
-    </figure>
+        <figure class="coffee-image" id="coffee-image">
+            <img src=${feature[6].image} alt="coffee">
+        </figure>
     `;
 
+    // Appending child elements to parent element
     coffeeContainer.appendChild(divEl);
     coffeeContainer.appendChild(figEl);
 
 }
 
+// Dynamically populating hot coffee elements
 function hotDrink(hot) {
     const hotCoffeeEl = document.createElement('div');
     hotCoffeeEl.classList.add('coffee-options');
@@ -119,9 +119,12 @@ function hotDrink(hot) {
         </div>
     </div>
     `;
-    hotCoffeeContainer.appendChild(hotCoffeeEl)
+
+    // Appending child element to parent element
+    hotCoffeeContainer.appendChild(hotCoffeeEl);
 }
 
+// Dynamically populating iced coffee elements
 function icedDrink(iced) {
     const icedCoffeeEl = document.createElement('div');
     icedCoffeeEl.classList.add('coffee-options');
@@ -139,11 +142,12 @@ function icedDrink(iced) {
         </div>
     </div>
     `;
-    icedCoffeeContainer.appendChild(icedCoffeeEl)
 
+    // Appending child element to parent element
+    icedCoffeeContainer.appendChild(icedCoffeeEl);
 }
 
-// Declaring Functions
+// Calling Functions
 featCoffee();
 hotCoffee();
 icedCoffee();
