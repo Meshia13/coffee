@@ -1,5 +1,7 @@
 # Cafe Coffee Shop
 
+<img src="assets/images/Screenshot.png" width="250" height="200">
+
 ## Table of contents
 
 - [Overview](#overview)
