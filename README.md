@@ -1,6 +1,4 @@
-# Coffee-shop
-
-This is a Front End Web Development project.
+# Cafe Coffee Shop
 
 ## Table of contents
 
@@ -9,6 +7,7 @@ This is a Front End Web Development project.
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
+  - [Installation](#installation)
 - [Author](#author)
 
 
@@ -16,7 +15,7 @@ This is a Front End Web Development project.
 
 ### Description
 
-Blog website that utilize HTML and CSS. This blog features responsive design, custom styling, and interactive elements. Demonstrates proper HTML semantic, proper indentation, consistent styling, and clean code structure.
+One page website application for a coffee shop. This web application demonstrates how to fetch API's, proper HTML semantic, proper indentation, consistent styling, and clean code structure.
 
 ### Screenshot
 
@@ -34,6 +33,13 @@ Blog website that utilize HTML and CSS. This blog features responsive design, cu
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
+- Document Object Model (DOM)
+- API: [SampleAPIs](https://sampleapis.com/api-list/coffee)
+
+### Installation
+
+Download the entire repository. 
 
 
 ## Author
