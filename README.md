@@ -6,10 +6,10 @@
 
 - [Overview](#overview)
   - [Description](#description)
-  - [Screenshot](#screenshot)
   - [Demo](#demo)
   - [Built with](#built-with)
   - [Installation](#installation)
+  - [Open Source](#open-source)
 - [Author](#author)
 
 
@@ -19,13 +19,10 @@
 
 One page website application for a coffee shop. This web application demonstrates how to fetch API's, proper HTML semantic, proper indentation, consistent styling, and clean code structure.
 
-### Screenshot
-
-<img src="assets/images/Screenshot.png" width="150" height="100">
-
 ### Demo
 
-- Live Site URL: [Live Code](https://meshia13.github.io/coffee_shop/)
+<img src="assets/misc/demo.gif">
+- Live Site URL: [Live Code](https://meshia13.github.io/coffee_shop/assets/misc/demo.gif)
 
 ## My process
 
@@ -40,8 +37,13 @@ One page website application for a coffee shop. This web application demonstrate
 - API: [SampleAPIs](https://sampleapis.com/api-list/coffee)
 
 ### Installation
+#### To get a local copy up:
+-`https://github.com/Meshia13/coffee_shop.git`
 
-Download the entire repository. 
+### Open Source
+#### How to contribute to open source
+
+- [How to Contribute to Open Source Projects – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/)
 
 
 ## Author
