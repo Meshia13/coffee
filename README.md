@@ -38,7 +38,7 @@ One page website application for a coffee shop. This web application demonstrate
 
 ### Installation
 #### To get a local copy up:
-<img src="assets/images/instructions.png">
+<img src="assets/images/zip.png">
 
 ### Open Source
 #### How to contribute to open source
