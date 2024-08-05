@@ -90,7 +90,7 @@ function featuredCoffee(feature) {
     figEl.classList.add("coffee-image");
     figEl.innerHTML = `
     
-        <figure class="coffee-image" id="coffee-image">
+        <figure class="feature-image" id="feature-image">
             <img src=${feature[6].image} alt="coffee">
         </figure>
     `;

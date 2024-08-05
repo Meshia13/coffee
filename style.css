@@ -17,8 +17,7 @@ body {
     box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
 }
 
-
-
+/* Navigation */
 .nav-links-container {
     height: 100%;
     width: 100%;
@@ -44,29 +43,39 @@ body {
     font-size: 1.75rem;
 }
 
+/* Heading */
+.heading {
+    margin: 50px;
+    padding: 0 10px;
+    font-family: "Alex Brush", cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
 
 
+/* Featured Drink */
 .coffee-container {
-    border: 1px solid wheat;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
     height: auto;
-    
-    /* width: 100%; */
+    margin: 50px;
+    padding: 10px;
 }
 
 .coffee-card {
-    /* border: 1px solid rebeccapurple; */
     display: flex;
     flex-direction: column;
     padding: 20px;
     height: auto;
+    margin-left: 200px;
 }
 
 .coffee-card .featured-title {
     font-size: 2rem;
     margin-bottom: 30px;
     color: white;
+    float: right;
 }
 
 .coffee-card .featured-drink {
@@ -74,23 +83,27 @@ body {
     border: 1px solid rgb(93, 55, 8);
     background-color: rgba(192, 137, 70, 0.836);
     margin: 40px 0;
+    padding: 2px 5px;
     box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
-    width: 30%;
-    float: right;
+    width: 40%;
     color: white;
 
 }
 
-img {
+.coffee-container .feature-image {
     height: auto;
     width: 100%;
-}
+    float: right;
 
+}
 
 .coffee-break {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Alex Brush", cursive;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
     margin-top: 40px;
 }
 
@@ -110,9 +123,8 @@ img {
     display: block;
 }
 
+/* Hot Coffee */
 .hotCoffee-options-container {
-    border: 1px solid red;
-    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -127,8 +139,8 @@ img {
     height: 400px;
 }
 
+/* Iced Coffee */
 .icedCoffee-options-container {
-    border: 1px solid greenyellow;
     height: auto;
     display: flex;
     flex-direction: row;
