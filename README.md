@@ -39,7 +39,7 @@ One page website application for a coffee shop. This web application demonstrate
 ### Installation
 
 Download the entire repository. 
-`https://github.com/Meshia13/coffee_shop.git`
+![Clone]`https://github.com/Meshia13/coffee_shop.git`
 
 ### Open Source
 #### How to contribute to open source
