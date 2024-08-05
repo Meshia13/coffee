@@ -20,8 +20,7 @@ Blog website that utilize HTML and CSS. This blog features responsive design, cu
 
 ### Screenshot
 
-<img src="assets/images/Screenshot .png" width="150" height="100">
-assets/images/Screenshot .png
+<img src="assets/images/Screenshot.png" width="150" height="100">
 
 ### Links
 
