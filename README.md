@@ -38,7 +38,10 @@ One page website application for a coffee shop. This web application demonstrate
 
 ### Installation
 #### To get a local copy up:
-<img src="assets/images/instructions.png">
+Click on the green ` code ` button, then download the repository Zip file.
+
+
+<img src="assets/images/zip.png" height="250" wwidth="200">
 
 ### Open Source
 #### How to contribute to open source
