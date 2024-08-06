@@ -22,7 +22,7 @@ One page website application for a coffee shop. This web application demonstrate
 ### Demo
 
 <img src="assets/misc/demo.gif">
-- Live Site URL: [Live Code](https://meshia13.github.io/coffee_shop/assets/misc/demo.gif)
+- Live Site URL: [Live Code](https://meshia13.github.io/coffee_shop/)
 
 ## My process
 
