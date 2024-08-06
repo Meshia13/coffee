@@ -45,6 +45,8 @@ Click on the green ` code ` button, then download the repository Zip file.
 
 <img src="assets/images/zip.png" height="250" wwidth="200">
 
+No authentication or permissions is needed to run the code
+
 ### Open Source
 #### How to contribute to open source
 
