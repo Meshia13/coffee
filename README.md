@@ -37,6 +37,7 @@ One page website application for a coffee shop. This web application demonstrate
 - API: [SampleAPIs](https://sampleapis.com/api-list/coffee)
 
 ### Installation
+<hr>
 #### To get a local copy up:
 Click on the green ` code ` button, then download the repository Zip file.
 
